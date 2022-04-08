@@ -23,7 +23,7 @@ public class DataBaseTest {
   Statement statement = connection.createStatement();
  ResultSet result = statement.executeQuery("SELECT * FROM login");
  while(result.next()) {
-	 System.out.println("Name:" +result.getString(1)+"  password:"+result.getString(2));
+	 System.out.println("Names:" +result.getString(1)+"  password:"+result.getString(2));
 	 
  }
   
